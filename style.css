@@ -1071,6 +1071,7 @@ div#preloader {
 .services-img {
     overflow: hidden;
     position: relative;
+    height:23rem;
 }
 .services-img img {
     transform: scale(1.1);
@@ -1746,7 +1747,7 @@ div#preloader {
     font-weight: 700;
 }
 .footer-services-link ul.footer-list{
-	width: 50%;
+	width: 100%;
 	float: left;
 }
 .footer-icons ul li {
@@ -1767,8 +1768,8 @@ div#preloader {
 .footer-tags li a:hover,
 .footer-icons ul li a:hover{
     color: #fff;
-	background: #fd5f16;
-	border:1px solid #fd5f16;
+	/* background: #fd5f16;
+	border:1px solid #fd5f16; */
 }
 .footer-tags li {
     float: left;
@@ -1850,7 +1851,7 @@ div#preloader {
     left: 0;
 }
 .footer-list li a:hover {
-    color: #fd5f16;
+    /* color: #fd5f16; */
 }
 .footer-area-bottom {
     background: #071333 none repeat scroll 0 0;
@@ -1949,7 +1950,7 @@ div#preloader {
 /*  15.Overview  Area
 /*----------------------------------------*/
 .overview-area{
-   background: rgba(0, 0, 0, 0) url(img/background/bg1.jpg) no-repeat scroll center center / cover; 
+   background: rgba(0, 0, 0, 0) url(img/background/aboutus.jpg) no-repeat scroll center center / cover; 
 }
 .parallax-bg{
     position:relative;
@@ -2148,6 +2149,9 @@ div#preloader {
 .team-area{
   position: relative;
 }
+.team-img{
+    height:37rem;
+}
 .team-member,page-team-member{
 	margin-top: -30px;
 }
@@ -2241,8 +2245,9 @@ div#preloader {
     margin-top:0px;
 }
 .project-content-4 .col-md-4{
-	padding-left: 0px;
-	padding-right: 0px;
+	/* padding-left: 5px;
+	padding-right: 5px; */
+    padding:5px
 }
 .project-content-4 {
     margin-top: 0px;
@@ -2385,7 +2390,7 @@ div#preloader {
     position: relative;
 }
 .page-area {
-    background: url(img/background/b.jpg);
+    background: url(img/background/newabout.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
