@@ -473,7 +473,7 @@ div#preloader {
 .main-menu ul.navbar-nav > li > a::before {
     background: #fd5f16;
     content: "";
-    height: 2px;
+    height: 7px;
     position: absolute;
     top: 0;
     width: 0;
@@ -1205,7 +1205,7 @@ div#preloader {
 /* 7.Counter Area
 /*----------------------------------------*/
 .counter-area{
-   background: rgba(0, 0, 0, 0) url(img/background/bg1.jpg) no-repeat scroll bottom center / cover; 
+   background: rgba(0, 0, 0, 0) url(img/background/newabout.avif) no-repeat scroll bottom center / cover; 
 }
 .counter-inner {
     background: #f6f6f6;
