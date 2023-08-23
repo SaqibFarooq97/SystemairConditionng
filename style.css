@@ -632,7 +632,7 @@ div#preloader {
 }
 .header-area.stick .quote-button {
     float: right;
-    padding: 13px 5px;
+    /* padding: 13px 5px; */
 }
 .header-area.stick .header-right-link a.main-search {
     margin: 17px 0px 17px 10px;
@@ -2173,13 +2173,13 @@ div#preloader {
 .team-share {
     opacity: 0;
 }
-.single-member:hover .team-content {
+.single-member .team-content {
     transition: 0.5s;
     top:0px;
     padding: 50px 20px;
     background: rgba(0,44,87,0.99) none repeat scroll 0 0;
 }
-.single-member:hover .team-share {
+.single-member .team-share {
     opacity: 1;
 }
 .team-title h4 {
