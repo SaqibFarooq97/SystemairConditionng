@@ -3,7 +3,7 @@ function initialize() {
   var mapOptions = {
 	zoom: 15,
 	scrollwheel: false,
-	center: new google.maps.LatLng(25.266666, 55.316666)
+	center: new google.maps.LatLng(28.546303338721966, 77.30862999627661)
   };
 
   var map = new google.maps.Map(document.getElementById('googleMap'),
