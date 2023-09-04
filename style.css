@@ -1730,7 +1730,7 @@ div#preloader {
 /*  13. Footer Area
 /*----------------------------------------*/
 .footer-area {
-    padding: 70px 0;
+    padding: 20px 0;
     background: #071333;
 }
 .footer-logo{
@@ -1827,6 +1827,9 @@ div#preloader {
 .footer-content {
     display: block;
     overflow: hidden;
+}
+.footer-address-contact{
+/* margin-top:15px; */
 }
 .footer-list li a {
     color: #ddd;
@@ -3214,3 +3217,11 @@ span.email-notes{color: #42414f;
 /*--------------------------------*/
 /* .End CSS
 /*--------------------------------*/
+.image-compress{
+    /* width:20rem; */
+    height:20rem;
+
+}
+.footer-img-logo{
+    max-width:35%;
+}
