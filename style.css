@@ -653,7 +653,7 @@ div#preloader {
 }
 .header-area.stick .navbar-brand>img {
     display: block;
-    width: 213px;
+    width: 300px;
     height: auto;
 }
 .header-area.stick .logo-bg:after {
@@ -1957,7 +1957,7 @@ div#preloader {
 /*  15.Overview  Area
 /*----------------------------------------*/
 .overview-area{
-   background: rgba(0, 0, 0, 0) url(img/background/aboutus.jpg) no-repeat scroll center center / cover; 
+   background: rgba(0, 0, 0, 0) url(img/IMAGES/piping.jpeg) no-repeat scroll center center / cover; 
 }
 .parallax-bg{
     position:relative;
@@ -3226,9 +3226,18 @@ span.email-notes{color: #42414f;
     height:20rem;
 
 }
-.footer-img-logo{
-    max-width:48%;
+/* Default styles for .footer-img-logo */
+.footer-img-logo {
+    max-width: 48%;
 }
+
+/* Media query for small screens */
+@media screen and (max-width: 984px) {
+    .footer-img-logo {
+        max-width: 100%; /* Adjust the max-width for small screens */
+    }
+}
+
 .fun-margin{
     margin-bottom:10px
 }
