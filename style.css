@@ -318,6 +318,7 @@ div#preloader {
 }
 .single-brand-item{
 	border:1px solid #ccc;
+    height:120px;
 }
 .left-headline{
 	position: relative;
