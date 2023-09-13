@@ -3246,5 +3246,8 @@ span.email-notes{color: #42414f;
     width:300px;
 }
 .img-mobile-logo{
-    max-width:180px;
+    max-width:300px;
+}
+.height-mobile-nav{
+height:80px ;
 }
