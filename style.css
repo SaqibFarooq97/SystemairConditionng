@@ -456,7 +456,7 @@ div#preloader {
 .logo a {
     display: inline-block;
     height: auto;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .main-menu ul.navbar-nav li {
     float: left;
@@ -630,10 +630,10 @@ div#preloader {
 .header-area.stick .logo a {
     display: inline-block;
     height: auto;
-    padding: 16px 0;
+    /* padding: 16px 0; */
 }
 .header-area.stick .main-menu ul.navbar-nav li a {
-    padding: 27px 0px;
+    padding: 41px 0px;
 }
 .header-area.stick .quote-button {
     float: right;
@@ -3257,4 +3257,50 @@ height:80px ;
     height:60px ;
 
 }
+}
+td {
+    color: #444;
+  }
+  th{
+    color: #444;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  caption{
+    color: #444;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  /* Styles for small screens */
+
+    /* Styles for small screens */
+@media (max-width: 600px) {
+    /* Hide the table header */
+    .table-responsive .table-caption {
+      display: none;
+    }
+  
+    /* Style for table header cells */
+    .table-responsive .table-header {
+      background-color: #ccc;
+      font-weight: bold;
+    }
+  
+    /* Display table rows as blocks */
+    .table-responsive .table-cell {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    
+    /* Style for row labels */
+    .table-responsive .table-cell::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: inline-block;
+      width: 120px; /* Adjust this width to fit your content */
+    }
+  }
+.center-button{
+    text-align:center;
 }
