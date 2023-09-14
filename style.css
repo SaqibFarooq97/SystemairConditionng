@@ -382,7 +382,7 @@ div#preloader {
     color: #ddd;
     display: block;
     font-weight: 600;
-    margin-right: 20px;
+    margin-right: 60px;
     padding: 12px 0;
     text-decoration: none;
     font-size: 16px;
@@ -1210,7 +1210,7 @@ div#preloader {
 /* 7.Counter Area
 /*----------------------------------------*/
 .counter-area{
-   background: rgba(0, 0, 0, 0) url(img/background/newabout.avif) no-repeat scroll bottom center / cover; 
+   background: rgba(0, 0, 0, 0) url(img/background/ac.jpg) no-repeat scroll bottom center / cover; 
 }
 .counter-inner {
     background: #f6f6f6;
@@ -2158,7 +2158,19 @@ div#preloader {
   position: relative;
 }
 .team-img{
-    height:37rem;
+    height:40rem;
+    @media only screen and (min-width: 767px) and (max-width: 1200px) {
+        height:50rem;
+    
+    }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        height:75rem;
+    
+    }
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        height:120rem;
+    
+    }
 }
 .team-member,page-team-member{
 	margin-top: -30px;
@@ -3257,6 +3269,10 @@ height:80px ;
     height:60px ;
 
 }
+@media only screen and (min-width: 320px) and (max-width: 477px) {
+    width:330px !important;
+
+}
 }
 td {
     color: #444;
@@ -3303,4 +3319,11 @@ td {
   }
 .center-button{
     text-align:center;
+}
+.extended-service{
+    margin-bottom:0px;
+}
+////////////////////////////////////////////////////////
+.all-project-margin{
+    margin-left:20px !important;
 }
