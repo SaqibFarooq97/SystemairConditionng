@@ -88,7 +88,18 @@ p {
     color: #777;
 }
 .footer-new-padding{
-    margin:0 0 7px;
+    margin:0 0 5px !important;
+    /* line-height:10px */
+
+}
+.line-height-footer{
+    line-height:18px;
+    font-size:13px;
+    margin-bottom:5px !important;
+}
+.center-header-tag{
+    display:flex;
+    justify-content: space-between;
 
 }
 h1, h2, h3, h4, h5, h6 {
@@ -1743,11 +1754,12 @@ div#preloader {
 }
 .footer-head p {
     color: #ddd;
+    margin: 0 0 5px;
 }
 .footer-head h4 {
     color: #ddd;
     font-size: 18px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 7px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -2410,10 +2422,10 @@ div#preloader {
     position: relative;
 }
 .page-area {
-    background: url(img/background/newabout.avif);
+    background: url(img/background/withdaikintag.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: 50% 28%;
 }
 .breadcumb-overlay {
   position: absolute;

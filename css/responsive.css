@@ -353,7 +353,7 @@
     left: 0;
     padding: 0;
     position: absolute;
-    top: 4px;
+    top: -8px;
     z-index: 999999;
     max-width: 130px;
 }
